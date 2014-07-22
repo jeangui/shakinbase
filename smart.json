@@ -1,0 +1,9 @@
+{
+  "packages": {
+    "leaflet": {},
+    "leaflet-markercluster": {},
+    "bootstrap-3": {},
+    "font-awesome": {},
+    "leaflet-awesome-markers": {}
+  }
+}

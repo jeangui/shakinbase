@@ -1,0 +1,39 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "leaflet": {},
+      "leaflet-markercluster": {},
+      "bootstrap-3": {},
+      "font-awesome": {},
+      "leaflet-awesome-markers": {}
+    },
+    "packages": {
+      "leaflet": {
+        "git": "https://github.com/bevanhunt/meteor-leaflet.git",
+        "tag": "v0.3.6",
+        "commit": "d9e3bdb824145c1078e52945909bb1cf38724da5"
+      },
+      "leaflet-markercluster": {
+        "git": "https://github.com/bevanhunt/meteor-leaflet-markercluster.git",
+        "tag": "v0.0.1",
+        "commit": "c5050c3d8f2a80fcf910732a67394b14df1bc07f"
+      },
+      "bootstrap-3": {
+        "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
+        "tag": "v3.1.1-1",
+        "commit": "63dd38968828bb8963636df93e9a1c45e2dfe67e"
+      },
+      "font-awesome": {
+        "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
+        "tag": "v4.0.3",
+        "commit": "61e9361384347547ae144f8228faa4deffda23db"
+      },
+      "leaflet-awesome-markers": {
+        "git": "https://github.com/bevanhunt/meteor-leaflet-awesome-markers.git",
+        "tag": "v0.0.2",
+        "commit": "1cce28336cb17b7b30f61e3aa25b1e08f054a963"
+      }
+    }
+  }
+}

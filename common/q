@@ -1,0 +1,3 @@
+console.log('Setting up the model ...');
+
+var Entreprise = new Meteor.Collection('entreprise');
