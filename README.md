@@ -13,7 +13,7 @@ mrt update
 mrt run
 ```
 
-May be it will be necessary to install agin the meteorite packages :
+May be it will be necessary to install again the meteorite packages :
 
 ```
 mrt add leaflet
