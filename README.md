@@ -2,29 +2,27 @@ Need to install meteor.js :
 
 ```curl https://install.meteor.com | /bin/sh```
 
-Then install meteorite package manager :
-
-```npm install -g meteorite```
-
-go into shakinbase project folder. And then launch :
+it is necessary to install the following packages :
 
 ```
-mrt update
-mrt run
+meteor add mrt:bootstrap-3
+meteor add mrt:leaflet
+meteor add mrt:leaflet-markercluster
+meteor add mrt:leaflet-awesome-markers
+meteor add accounts-ui
+meteor add accounts-google
+meteor add accounts-twitter
+meteor add accounts-facebook
+meteor add mizzao:bootstrap-3
 ```
 
-May be it will be necessary to install again the meteorite packages :
+and remove these ones :
 
-```
-mrt add leaflet
-mrt add leaflet-markercluster
-mrt add bootstrap-3
-mrt add font-awesome
-mrt add leaflet-awesome-markers
-```
+meteor remove autopublish
+meteor remove insecure
 
 And then :
 
-```mrt run```
+```meteor```
 
 
