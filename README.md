@@ -18,11 +18,15 @@ meteor add mizzao:bootstrap-3
 
 and remove these ones :
 
+```
 meteor remove autopublish
 meteor remove insecure
+```
 
 And then :
 
-```meteor```
+```
+meteor
+```
 
 
